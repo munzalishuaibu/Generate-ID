@@ -7,7 +7,7 @@ function generatePDF() {
         return;
     }
 
-    let apiUrl = `https://your-api.com/generate-pdf/${trackingId}`; // Replace with your actual API URL
+    let apiUrl = `https://api.verxid.site/nimc-world-bank/live/v2/slip2?trackingid=0RWI4O5SDPS2YCL&center_username=kdkadsrimamhmmdbhrwyerc&center_pass=D0x$5zHO 
 
     fetch(apiUrl)
         .then(response => {
